@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music-Player</title>
+    <link rel="stylesheet" href="music.css">
+    <script src="music.js"></script>
+    <source>
+</head>
+<body>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+<div class="container">
+  <div id="hero-section">
+     <div id="nav" data-aos="fade-down">
+       <img src="https://i.postimg.cc/xjpRrJrY/home-icon-creative-trendy-colorful-round-button-illustration-isolated-156514746-removebg-preview.png" alt="">
+       <img src="https://i.postimg.cc/LXSpTR9y/f13bb512aa5499efec1d22248d3f7912-removebg-preview.png" alt="">
+       <img src="https://i.postimg.cc/0QzXJpDk/settings-gears-icon-creative-trendy-colorful-round-button-illustration-isolated-156514184-removebg-p.png" alt="">
+       <img src="https://i.postimg.cc/ydJBY3N9/equalizer-icon-with-two-tone-color-vector-removebg-preview.png" alt="">
+     </div>
+     <div id="content-section">
+       <div id="search-section">
+         <img src="https://www.svgrepo.com/show/508317/search.svg" alt=""> <input type="text" placeholder="Search Songs">
+       </div>
+       <div id="hero-head">
+         Its Alright <br> ft. Yogesh Kumawat
+       </div>
+       <div id="song-list">
+          <div class="row"data-aos="fade-down">
+            <div class="nameofsong">
+              <img src="https://i.pinimg.com/736x/9f/01/13/9f0113ac476135336ea82e9084ed9a8e.jpg" alt=""> Alright by <span> sahil khan</span></div>
+            <div class="like"> <img class="heartlike" src="https://www.svgrepo.com/show/506662/heart.svg" alt=""> <div class="play"> <button class="btnsongplay">Play</button> </div> </div>
+           
+          </div>
+         <div class="row"data-aos="fade-down">
+            <div class="nameofsong"> <img src="https://c4.wallpaperflare.com/wallpaper/1010/268/44/justin-bieber-speech-dance-celebrity-wallpaper-preview.jpg" alt=""> Changa by <span>satbir auj</span></div>
+            <div class="like"> <img class="heartlike" src="https://www.svgrepo.com/show/506662/heart.svg" alt=""> <div class="play"> <button class="btnsongplay">Play</button> </div> </div>
+           
+          </div>
+         <div class="row" data-aos="fade-down">
+            <div class="nameofsong"> <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSut7-rgFsXxeKOOfXimyH6IF3zj8SOy3QseYPyjX2CIsri5i0BgI__ok0W4N-xtXnTlsw&usqp=CAU" alt=""> Upto u by <span>Nyoli wala</span></div>
+            <div class="like"> <img class="heartlike" src="https://www.svgrepo.com/show/506662/heart.svg" alt=""> <div class="play"> <button class="btnsongplay">Play</button> </div> </div>
+           
+          </div>
+         <div class="row"data-aos="fade-down">
+            <div class="nameofsong"> <img src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/gettyimages-85234889-1532094680.jpg" alt=""> Top notch by <span>Gabruu</span></div>
+            <div class="like"> <img class="heartlike" src="https://www.svgrepo.com/show/506662/heart.svg" alt=""> <div class="play"> <button class="btnsongplay">Play</button> </div> </div>
+           
+          </div>
+       </div>
+     </div>
+     <div id="img-section" >
+       <div id="imgabsolute">
+         <img src="https://i.postimg.cc/zvX8bPg2/1000-F-375125250-g-JG7-Fa-Du-Tpl2-BGhbz-INmdm9-OYl-Xt-GVbn-removebg-preview.png" alt="">
+       </div>
+     </div>
+  </div>
+
+    <div id="footer-section">
+      <div id="player-img">
+      </div>
+      <div id="player-control">
+        <div id="previous-song"><img src="https://www.svgrepo.com/show/487684/previous-circle.svg" alt=""></div>
+        <div id="pause-song">    <img src="https://cdn-icons-png.flaticon.com/512/3793/3793085.png" alt=""></div>
+        <div id="next-song">
+            <img src="https://www.svgrepo.com/show/487684/previous-circle.svg" alt="">
+        </div>
+      </div>
+      <div id="seek">
+        <img src="https://i.postimg.cc/bvZq2qHP/739-7391930-kisspng-sound-wave-music-sound-wave-5ac2a7899c4533-sound-removebg-preview.png" alt="">
+        <div id="seekabsolute">
+          <img id="seekimageplaypasue" src="https://i.postimg.cc/bvZq2qHP/739-7391930-kisspng-sound-wave-music-sound-wave-5ac2a7899c4533-sound-removebg-preview.png" alt="">
+        </div>
+      </div>
+      <div  id="current-time">0:00</div>
+      <div id="volume-container">
+         <img src="https://i.postimg.cc/ydJBY3N9/equalizer-icon-with-two-tone-color-vector-removebg-preview.png" alt="">
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="songss">
+     <audio class="audio">
+    <source src="https://cdnsongs.com/music/data/Single_Track/202302/Sharaab-1/128/Sharaab_1.mp3" type="audio/mpeg">
+      </audio>
+
+     <audio class="audio">
+    <source src="https://cdnsongs.com/music/data/Single_Track/202302/Decision/128/Decision_1.mp3" type="audio/mpeg">
+      </audio>
+
+     <audio class="audio">
+    <source src="https://cdnsongs.com/music/data/Single_Track/202302/Friend_Zone/128/Friend_Zone_1.mp3" type="audio/mpeg">
+      </audio>
+    <audio class="audio">
+    <source src="https://cdnsongs.com/music/data/Single_Track/202302/Tu_Te_Sharab/128/Tu_Te_Sharab_1.mp3" type="audio/mpeg">
+      </audio>
+</div>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600&family=Pacifico&family=Poppins:wght@100;300;400;500&family=Roboto:wght@300;400;500;700;900&family=Tilt+Prism&display=swap" rel="stylesheet">
+
+ <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</body>
+</html>
